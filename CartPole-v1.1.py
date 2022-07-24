@@ -7,7 +7,7 @@ env = gym.make("CartPole-v1")
 env.reset()
 
 #%% 게임 실행
-for i in range(10):
+for i in range(1000):
     # 변수 초기화
     done = False # 종료 변수
     game_rew = 0 # 보상
